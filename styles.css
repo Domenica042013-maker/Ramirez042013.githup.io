@@ -1,0 +1,110 @@
+
+ body{
+            background-color:#deecf7;
+            font-family:Arial, Helvetica, sans-serif;
+            color:#333;
+            margin:0;
+            padding:0;
+        }
+
+        .contenedor{
+            width:80%;
+            margin:20px auto;
+            border:3px solid #9fcff1;
+            border-radius:10px;
+            padding:20px;
+            background-color:white;
+            text-align:center;
+        }
+
+        h1{
+            color:#0b7ffc;
+            font-size:40px;
+        }
+
+        h2{
+            color: #0056b3;
+        }
+
+        p{
+            font-size:18px;
+            text-align:justify;
+        }
+
+        img{
+            width:350px;
+            height:230px;
+            border:3px solid #0077cc;
+            border-radius:10px;
+        }
+
+        ul{
+            text-align:left;
+            font-size:18px;
+        }
+
+        marquee{
+            background-color:rgb(0, 255, 221);
+            color:rgb(15, 167, 238);
+            font-size:22px;
+            font-weight:bold;
+            padding:10px;
+        }
+
+        button{
+            background-color:#28a745;
+            color:white;
+            font-size:18px;
+            padding:12px 20px;
+            border:none;
+            border-radius:8px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background-color:#218838;
+        }
+
+        a{
+            text-decoration:none;
+            color:blue;
+            font-size:18px;
+            font-weight:bold;
+        }
+        iframe{
+            margin-top:15px;
+            border:3px solid #0077cc;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 0; 
+        }
+        nav {
+            display: flex; 
+            width: 100%; 
+        }
+        nav a {
+            flex: 1; 
+            padding: 15px; 
+            text-align: center;
+            color: #0056b3; 
+            background-color: rgb(0, 255, 221);
+            text-decoration: none; 
+            transition: background-color 0.3s; 
+        }
+           .social-icons {
+            list-style: none;
+            padding: 0;
+        }
+        .social-icons li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .social-icons a {
+            text-decoration: none;
+            color: #000;
+            font-size: 24px;
+        }
